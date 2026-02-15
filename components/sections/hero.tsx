@@ -30,7 +30,7 @@ export function Hero() {
                 <ScrollReveal direction="up" delay={0.6}>
                     <p className="text-base sm:text-lg md:text-xl text-muted-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed">
                         Architecting live MERN systems and cloud infrastructures.
-                        Building scalable applications that serve 100+ patients weekly with
+                        Building scalable applications that serve 10+ patients weekly with
                         seamless AWS S3 to DigitalOcean migrations and optimized performance.
                     </p>
                 </ScrollReveal>

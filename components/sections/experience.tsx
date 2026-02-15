@@ -16,7 +16,7 @@ export function Experience() {
                     name: "BPS (Brain Profiling System)",
                     description: "End-to-End Ownership: Orchestrated the entire product lifecycle from initial UI/UX design to final delivery",
                     achievements: [
-                        "Architected a live MERN stack application serving 100+ patients weekly",
+                        "Architected a live MERN stack application serving 10+ patients weekly",
                         "Executed seamless cloud migration of media assets from AWS S3 to DigitalOcean Spaces using s3cmd",
                         "Optimized infrastructure by hosting frontend on Netlify and backend on DigitalOcean App Platform",
                     ],
