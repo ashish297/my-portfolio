@@ -33,18 +33,16 @@ export function AnimatedBackground() {
             vy: number
         }> = [];
 
-        // Create dots
+        // Create dots on a perfect square grid (same spacing horizontally and vertically)
         for (let x = 0; x < canvas.width; x += spacing) {
             for (let y = 0; y < canvas.height; y += spacing) {
-                const initialX = x + Math.random() * 10;
-                const initialY = y + Math.random() * 10;
                 dots.push({
-                    x: initialX,
-                    y: initialY,
-                    originalX: initialX,
-                    originalY: initialY,
-                    vx: (Math.random() - 0.5) * 0.8, // Faster floating
-                    vy: (Math.random() - 0.5) * 0.8,
+                    x,
+                    y,
+                    originalX: x,
+                    originalY: y,
+                    vx: 0,
+                    vy: 0,
                 });
             }
         }
